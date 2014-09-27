@@ -11,3 +11,38 @@ like:
 	dateTime.setMinutes(dateTime.getMinutes()-40);
 	dateTime.setMonth(dateTime.getMonth()-1);
 
+	console.log(getPastTime(dateTime, {
+		    year: true,
+		    month: true,
+		    day: true,
+		    hour: true,
+		    minute: true,
+		    second: true
+		  }));
+		  
+	console.log(getPastTime(dateTime, [
+		    true,
+		    true,
+		    true,
+		    true,
+		    true,
+		    true
+		  ]));
+		  
+	console.log(getPastTime(dateTime, {
+		    0: true,
+		    1: true,
+		    2: true,
+		    3: true,
+		    4: true,
+		    5: true
+		  }));
+		  
+	console.log(getPastTime(dateTime, 
+		    true,
+		    true,
+		    true,
+		    true,
+		    true,
+		    true
+		  ));
