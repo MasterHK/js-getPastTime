@@ -46,3 +46,7 @@ like:
 		    true,
 		    true
 		  ));
+
+now just have persian langauge, soon will come with ability to define new langauges...
+
+:)
