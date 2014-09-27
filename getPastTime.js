@@ -111,7 +111,7 @@ function getPastTime(dateTarikhVoroodi) {
 		  	intDay = 30 - (-1*intDay);
 		  	intMonth--;
 		  };
-		  //dateTarikhVoroodi.setDay(crtTimeProp.day);
+		  dateTarikhVoroodi.setDate(crtTimeProp.day);
 		  updateDate();
 		  intHour = (crtTimeProp.hour - updatingDate.hour);
 		  if (intHour < 0) {
